@@ -1,0 +1,3 @@
+on boot
+    # Light up the screen
+    write /sys/devices/platform/omapdss/manager2/panel-notle-dpi/brightness 255

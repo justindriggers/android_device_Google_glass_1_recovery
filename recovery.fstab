@@ -1,0 +1,10 @@
+/dev/block/platform/omap_hsmmc.1/by-name/system     /system	ext4		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/cache      /cache	ext4		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/userdata   /data	ext4		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/misc       /misc	emmc		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/boot       /boot	emmc		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/recovery   /recovery	emmc		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/bootloader /bootloader	emmc		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/xloader    /xloader	emmc		defaults	defaults
+/dev/block/platform/omap_hsmmc.1/by-name/fpga       /fpga	emmc		defaults	defaults
+/dev/null					    /sdcard	datamedia	defaults	defaults
