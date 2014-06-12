@@ -14,5 +14,5 @@ $(call inherit-product, device/Google/glass_1/device_glass_1.mk)
 PRODUCT_DEVICE := glass_1
 PRODUCT_NAME := cm_glass_1
 PRODUCT_BRAND := Google
-PRODUCT_MODEL := glass_1
+PRODUCT_MODEL := Glass 1
 PRODUCT_MANUFACTURER := Google

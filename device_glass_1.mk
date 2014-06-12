@@ -21,6 +21,4 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_glass_1
-PRODUCT_DEVICE := glass_1
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=glass-1
