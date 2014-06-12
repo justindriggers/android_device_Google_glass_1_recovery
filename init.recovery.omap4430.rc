@@ -1,3 +1,6 @@
 on boot
     # Light up the screen
     write /sys/devices/platform/omapdss/manager2/panel-notle-dpi/brightness 255
+
+on fs
+    symlink /dev/block/platform /dev/block/platform/omap
